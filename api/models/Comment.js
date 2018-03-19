@@ -22,7 +22,6 @@ module.exports = {
   		type:'datetime'
     },
 
-
     //one to many between Story_user and  Comment, where one Story user have many comments
 		story_user_id:{
 			model:'story_user'
